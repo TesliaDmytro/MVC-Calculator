@@ -1,0 +1,101 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
+  \*****************************************************************/
+.calculator {
+	width: 200px;
+	background: #000;
+	border-radius: 10px;
+}
+
+.display {
+	height: 50px;
+	margin: 80px 0 15px 0;
+	width: 100%;
+	background: #000;
+	color: antiquewhite;
+	font-size: 36px;
+}
+
+.btn{
+	padding: 0;
+	margin: 2px;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: #2e2d2d;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+}
+
+.btn:hover {
+	color: #fff;
+}
+
+.yellow {
+	background: #d49712;
+}
+
+.grey {
+	background: #d1ccc1;
+	font-weight: 400;
+	color: black;
+}
+
+.longBtn {
+	width: 85px;
+	border-radius: 25px;
+}
+
+._lightStyleBtns {
+	background: #e2e2e2;
+	color:#000;
+}
+
+._yellowBtns {
+	color: #000;
+}
+
+._greyBtns {
+	color: #fff;
+}
+
+._lightStyleBtns:hover, ._yellowBtns:hover, ._greyBtns:hover {
+	color: #000;
+}
+
+._calculatorLight {
+	background: #fff;
+	border: 1px solid grey;
+}
+
+._displayLight {
+	background: #fff;
+	color: black;
+}
+
+.changeStyleBtn {
+	background: #000;
+	border-radius: 5px;
+	border: 1px solid grey;
+	width: 90px;
+	height: 50px;
+	color: #fff;
+	transition: all 1s;
+}
+
+._changeStyleBtnLight, .changeStyleBtn:hover  {
+	background: #fff;
+	color: #000;
+	transition: all 1s;
+}
+
+._changeStyleBtnLight:hover {
+	background: #000;
+	color: #fff;
+	transition: all 1s;
+}
+
+
+
+/*# sourceMappingURL=main.css.map*/
